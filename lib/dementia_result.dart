@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 
 class DementiaResult extends StatelessWidget {
@@ -29,6 +27,3 @@ class DementiaResult extends StatelessWidget {
     );
   }
 }
-
-
-// add button to navigate to home
