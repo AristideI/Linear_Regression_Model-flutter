@@ -1,6 +1,4 @@
-//APOE_ε4,
-
-class DementiaModel {
+class DementiaAppModel {
   final String diabetic;
   final double alcoholLevel;
   final double heartRate;
@@ -8,25 +6,23 @@ class DementiaModel {
   final double bodyTemperature;
   final double weight;
   final double mriDelay;
-  final String prescription;
-  final double dosageInMg;
   final double age;
   final String educationLevel;
   final String dominantHand;
-  final String Gender;
-  final String Family_History;
-  final String Smoking_Status;
-  final String APOE_e4;
-  final String Physical_Activity;
-  final String Depression_Status;
-  final double Cognitive_Test_Scores;
-  final String Medication_History;
-  final String Nutrition_Diet;
-  final String Sleep_Quality;
-  final String Chronic_Health_Conditions;
-  final String Dementia;
+  final String gender;
+  final String familyHistory;
+  final String smokingStatus;
+  final String apoee4;
+  final String physicalActivity;
+  final String depressionStatus;
+  final double cognitiveTestScores;
+  final String medicationHistory;
+  final String nutritionDiet;
+  final String sleepQuality;
+  final String chronicHealthConditions;
+  final String dementia;
 
-  DementiaModel({
+  DementiaAppModel({
     required this.diabetic,
     required this.alcoholLevel,
     required this.heartRate,
@@ -34,22 +30,20 @@ class DementiaModel {
     required this.bodyTemperature,
     required this.weight,
     required this.mriDelay,
-    required this.prescription,
-    required this.dosageInMg,
     required this.age,
     required this.educationLevel,
     required this.dominantHand,
-    required this.Gender,
-    required this.Family_History,
-    required this.Smoking_Status,
-    required this.APOE_e4,
-    required this.Physical_Activity,
-    required this.Depression_Status,
-    required this.Cognitive_Test_Scores,
-    required this.Medication_History,
-    required this.Nutrition_Diet,
-    required this.Sleep_Quality,
-    required this.Chronic_Health_Conditions,
-    required this.Dementia,
+    required this.gender,
+    required this.familyHistory,
+    required this.smokingStatus,
+    required this.apoee4,
+    required this.physicalActivity,
+    required this.depressionStatus,
+    required this.cognitiveTestScores,
+    required this.medicationHistory,
+    required this.nutritionDiet,
+    required this.sleepQuality,
+    required this.chronicHealthConditions,
+    required this.dementia,
   });
 }
